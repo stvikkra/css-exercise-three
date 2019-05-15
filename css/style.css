@@ -12,14 +12,13 @@ h1 {
 .container {
   box-sizing: border-box;
   margin: 0 auto;
-  width: 100%;
+  width: 60%;
+  max-width: 960px;
 }
 
 
 .location {
   background-color: #e1e3e8;
-  width: 60%;
-  max-width: 960px;
   box-sizing: border-box;
   border-bottom: 1px solid grey;
 }
@@ -52,12 +51,14 @@ nav {
   margin: 0 auto;
   padding: 10px 0 15px 15px;
   position: fixed;
-  width: 60%;
+  width: 100%;
+  max-width: 960px;
 }
 
 .restaurant-list {
   padding-top: 3.8em;
   display: block;
-  width: 100%;
+  width: 120%;
+  max-width: 960px;
   box-sizing: border-box;
 }
